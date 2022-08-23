@@ -1,0 +1,30 @@
+parte d)
+principio de induccion en los naturales:
+    P(n)
+    1) probar que se cumple para P(0) CASO BASE
+    2) asumiendo que P(n) se cumple (HIPOTESIS INDUCTIVA),
+        demostrar que P(n+1) se cumple (TESIS INDUCTIVA)
+
+Casos Base: 
+* n = 0, En este caso se asigna A[1] <- e, por lo que A[1..n+1] queda
+        trivialmente ordenado por tener un solo elemento.
+
+* n > 0, e >= A[n]. 
+        En este caso se asigna A[n+1] <--- e, entonces considerando que
+        A[1..n] estaba ordenado (precondicion) y que A[n] <= A[n+1] se demuestra que
+        A[1..n+1] queda ordenado.
+
+Paso Inductivo:
+
+HI) La hipotesis inductiva es: si A[1..n-1] esta ordenado y se llama a la funcion insertarOrdenad(A,n-1,e)
+    entonces A[1..n] queda ordenado conteniendo los elementos que ya estaban en el A[1..n-1] y a e.
+
+TI) La tesis inductiva es:
+    insertarOrdenado(A,n,e) deja A[1..n+1] ordenado.
+
+Demostracion:
+e < A[n] ----> A[n+1] = A[n], por lo que A[n+1] > e.
+POR HI, A[1..n] estaba ordenado, se cumple A[n+1] >= A[i] para 1<=i <= n-1.
+Por lo tanto, por HI el algoritmo inserta a "e" en A[1..n] de forma ordenada, entonces
+    A[1..n+1] queda ordenado.
+

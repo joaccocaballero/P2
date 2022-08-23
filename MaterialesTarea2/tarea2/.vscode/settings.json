@@ -1,0 +1,8 @@
+{
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "C_Cpp.vcFormat.space.beforeBlockOpenBrace": false,
+    "C_Cpp.vcFormat.space.withinInitializerListBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "C_Cpp.errorSquiggles": "Disabled"
+}

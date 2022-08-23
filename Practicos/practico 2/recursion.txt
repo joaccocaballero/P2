@@ -1,0 +1,13 @@
+RECURSION 
+.
+.
+una funcion que se llama a si misma.
+el caso base -> no hay llamada recursiva.
+paso recursivo -> modifica el parametro de entrada a la funcion 
+
+tres aspectos a analizar:
+* casos base
+* sobre que hacemos la recursion
+* paso recursivo
+
+// recursion de cola ---> la llamada recursiva es la ultima instruccion que se ejecuta.

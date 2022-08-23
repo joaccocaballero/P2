@@ -1,0 +1,10 @@
+TAD COLA DE PRIORIDAD:
+
+CONSTRUCTORES: Crear, Insertar.
+SELECTORES: esVacio, estaLlena.
+PREDICADOS: Min, Borrar_Min.
+
+
+BINARY HEAP
+1. Completo.
+2. Prioridad de hijos es Menor.
