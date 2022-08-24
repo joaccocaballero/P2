@@ -1,2 +1,2 @@
-# Programación 2
+# P2
 Entregas de Laboratorio - Programación 2 - FING
